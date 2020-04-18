@@ -2,7 +2,7 @@
 A Conditional Generative Adversarial Network (CGAN) to colorize grayscale images.
 
 This project was coded in Jupyter Notebooks using Python. More details about colorization theory,
-implementation, tests, etc. can be found in [this undergraduate research thesis](https://drive.google.com/file/d/10PYoKT_YwOIlvwnCFpDo6Mz5gK7t0GaC/view?usp=sharing) completed at Elon University
+implementation, tests, etc. can be found in [my undergraduate research thesis](https://drive.google.com/file/d/10PYoKT_YwOIlvwnCFpDo6Mz5gK7t0GaC/view?usp=sharing) completed at Elon University
 
 ## Goal
 The aim of this project was to develop a model that could be trained on color images and then 
@@ -23,13 +23,16 @@ Load a dataset to train, set training parameters, and let your computer fume for
 features of the code.
 
 As the model trains, it will output predictions on the training set after each epoch. This way, you can see the model converge (or fail spectacularly) in real time.
-**TODO: Add picture here**
+![](Images/Epoch%2024.png)
+*The images in the figure are: Ground Truth | Grayscale | Predictions 1 ... n |*
 
-It will also output a loss curve after epoch.
-**TODO: Add picture here**
+It will also output a loss curve, which is updated at the end of each epoch.
+![](Images/Losses.jpg)
 
 Once the model's done training, it will output predictions on the test set.
-**TODO: Add picture here**
+![](Images/Test%20Images%20Butte%204.png)
+*Just like in training, the images in the figure are: Ground Truth | Grayscale | Predictions 1 ... n |*
+
 
 ### Testing the CGAN
 Code to test an already-trained model can be found in [colorization_test_model.ipynb](colorization_test_model.ipynb).
@@ -41,8 +44,12 @@ This program allows you to save each prediction from a model individually ([colo
 the realism of your output. (Check out pg. 44 in [our paper](https://drive.google.com/file/d/10PYoKT_YwOIlvwnCFpDo6Mz5gK7t0GaC/view?usp=sharing) to see how students at Elon University faired at discriminating between the two)
 
 Below are some randomly selected ground truths and colorized images. Can you tell which are which?
-**TODO: Add images here**
-
+|![](Images/7.png)|![](Images/21.png)|![](Images/40.png)|![](Images/47.png)|
+|---|---|---|---|
+<details>
+  <summary>Answer</summary>
+  The first two images have been colorized by my places2 model, the last two images are original color images.
+</details>
 
 ### Various Helper Programs
 This project required several programs to test features, generate artificial datasets, scale images to 256x256, etc.
