@@ -8,8 +8,7 @@ be used to colorize historical black and white images. Below is a table of sever
 William Henry Jackson in the 19th century which have been colorized by the places2 model.
 
 | Image Name | Original | Colorized || Image Name | Original | Colorized |
-|:--:|:--:| :--:|:-:|:--:|:--:|:--:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Cameron's Cone | ![](Images/Cameron's%20Cone%20orig.png) | ![](Images/Cameron's%20Cone%20color.png) || Cumbres Mountain | ![](Images/Cumbres%20Mountain%20orig.png) | ![](Images/Cumbres%20Mountain%20color.png) |
-| Fremont's Peak | ![](Images/Fremont's%20Peak%20orig.png) | ![](Images/Fremont's%20Peak%20color.png) || Georgetown | ![](Images/Georgetown%20orig.png)      |   ![](Images/Georgetown%20color.png) |
-| Georgetown | are neat      |    $1 |
-| Sierra San Juan | are neat      |    $1 |
+| Fremont's Peak | ![](Images/Fremont's%20Peak%20orig.png) | ![](Images/Fremont's%20Peak%20color.png) || Georgetown | ![](Images/Georgetown%20orig.png) | ![](Images/Georgetown%20color.png) |
+| Shadow Lake | ![](Images/Shadow%20Lake%20orig.png) | ![](Images/Shadow%20Lake%20color.png) || Sierra San Juan | ![](Images/Sierra%20San%20Juan%20orig.png) | ![](Images/Sierra%20San%20Juan%20color.png) |
