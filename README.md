@@ -1,8 +1,8 @@
 # Colorization CGAN
-A Conditional Generative Adversarial Network (CGAN) to colorize grayscale images.
+A Conditional Generative Adversarial Network (CGAN) capable of colorizing grayscale images.
 
 This project was coded in Jupyter Notebooks using Python. More details about colorization theory,
-implementation, tests, etc. can be found in [my undergraduate research thesis](https://drive.google.com/file/d/10PYoKT_YwOIlvwnCFpDo6Mz5gK7t0GaC/view?usp=sharing) completed at Elon University
+implementation, tests, discussion, etc. can be found in [my undergraduate research thesis](https://drive.google.com/file/d/10PYoKT_YwOIlvwnCFpDo6Mz5gK7t0GaC/view?usp=sharing) completed at Elon University.
 
 ## Goal
 The aim of this project was to develop a model that could be trained on color images and then 
@@ -19,8 +19,8 @@ William Henry Jackson in the 19th century which have been colorized by the place
 ### Training the CGAN
 CGAN code can be found in [colorization_pix2pix.ipynb](colorization_pix2pix.ipynb).
 
-Load a dataset to train, set training parameters, and let your computer fume for the next couple days. Below are a couple
-features of the code.
+Grab some images to train/test, set training parameters, and let your computer fume for the next couple days. Below are a
+couple features of the code.
 
 As the model trains, it will output predictions on the training set after each epoch. This way, you can see the model converge (or fail spectacularly) in real time.
 ![](Images/Epoch%2024.png)
@@ -37,7 +37,7 @@ Once the model's done training, it will output predictions on the test set.
 ### Testing the CGAN
 Code to test an already-trained model can be found in [colorization_test_model.ipynb](colorization_test_model.ipynb).
 
-Do you want to saved model and produce more predictions? This is the code for you!
+Do you want to load a saved model and produce more predictions? This is the code for you!
 
 This program allows you to save each prediction from a model individually ([colorization_pix2pix.ipynb](colorization_pix2pix.ipynb) saves them all in one figure). It is also able to randomly save ground truth
 (original) images and colorizations from your test set, perfect for generating data for a user study to measure
@@ -55,5 +55,9 @@ Below are some randomly selected ground truths and colorized images. Can you tel
 This project required several programs to test features, generate artificial datasets, scale images to 256x256, etc.
 All extraneous code can be found in the [Helper Programs](https://github.com/drew-bowman/Colorization/tree/master/Helper%20Programs) folder.
 
+## Final Models
+I've included the weights for my final colorization models in the [Final Models](https://github.com/drew-bowman/Colorization/tree/master/Final%20Model%20Weights) folder.
+
+The LSUN model colorizes bedroom interiors and the places2 model colorizes natural landscapes.
 
 **Enjoy!**
