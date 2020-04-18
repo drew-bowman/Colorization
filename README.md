@@ -7,7 +7,7 @@ implementation, tests, discussion, etc. can be found in [my undergraduate resear
 ## Goal
 The aim of this project was to develop a model that could be trained on color images and then 
 be used to colorize historical black and white images. Below is a table of several images taken by
-William Henry Jackson in the 19th century which have been colorized by the places2 model.
+William Henry Jackson in the 19th century which have been colorized by a model trained on nature landscapes from the places2 dataset.
 
 |Image Name|Original|Colorized||Image Name|Original|Colorized|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
