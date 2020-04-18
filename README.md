@@ -56,7 +56,7 @@ This project required several programs to test features, generate artificial dat
 All extraneous code can be found in the [Helper Programs](https://github.com/drew-bowman/Colorization/tree/master/Helper%20Programs) folder.
 
 ## Final Models
-I've included the weights for my final colorization models in the [Final Models](https://github.com/drew-bowman/Colorization/tree/master/Final%20Model%20Weights) folder.
+I've included the weights for my final colorization models in the [Final Model Weights](https://github.com/drew-bowman/Colorization/tree/master/Final%20Model%20Weights) folder.
 
 The LSUN model colorizes bedroom interiors and the places2 model colorizes natural landscapes.
 
