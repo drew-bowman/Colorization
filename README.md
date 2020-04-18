@@ -48,7 +48,7 @@ Below are some randomly selected ground truths and colorized images. Can you tel
 |---|---|---|---|
 <details>
   <summary>Answer</summary>
-  The first two images have been colorized by my places2 model, the last two images are original color images.
+  The first two images have been colorized by my places2 model, the last two are original color images.
 </details>
 
 ### Various Helper Programs
