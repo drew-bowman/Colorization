@@ -56,7 +56,7 @@ This project required several programs to test features, generate artificial dat
 All extraneous code can be found in the [Helper Programs](https://github.com/drew-bowman/Colorization/tree/master/Helper%20Programs) folder.
 
 ### Directory Structure
-Obviously, the directory of this project can be whatever you want. But here's how I structured mine (so it should line up with my code).
+My code is set up for the following structure, but it can easily be tweaked.
 - colorization_pix2pix.ipynb
 - colorization_test_model.ipynb
 - ...and all other .ipynb files
