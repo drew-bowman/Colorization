@@ -55,6 +55,30 @@ Below are some randomly selected ground truths and colorized images. Can you tel
 This project required several programs to test features, generate artificial datasets, scale images to 256x256, etc.
 All extraneous code can be found in the [Helper Programs](https://github.com/drew-bowman/Colorization/tree/master/Helper%20Programs) folder.
 
+### Directory Structure
+Obviously, the directory of this project can be whatever you want. But here's how I structured mine (so it should line up with my code).
+- colorization_pix2pix.ipynb
+- colorization_test_model.ipynb
+- ...and all other .ipynb files
+- Output/
+  - colorization_pix2pix.ipynb will automatically create a folder for each training containing the following:
+    * In-progress training images every epoch
+    * Model weights every 5 epochs
+    * Generator/discriminator loss curve
+    * Test images after training completed
+- Test_Output/
+  - colorization_test_model.pynb will automatically create folders for final test images here
+- lsun/ (or whatever dataset you have downloaded)
+  - train/
+    - subdir/ (subdirectory required to read in large datasets using ImageDataGenerator in Keras)
+      - train_0001.jpg
+      - train_0002.jpg
+      - ...
+  - test/ (no subdirectories needed unless reading in a crazy amount of test images)
+    - train_0001.jpg
+    - train_0002.jpg
+  
+
 ## Final Models
 I've included the weights for my final colorization models in the [Final Model Weights](https://github.com/drew-bowman/Colorization/tree/master/Final%20Model%20Weights) folder.
 
