@@ -67,7 +67,7 @@ My code is set up for the following structure, but it can easily be tweaked.
     * Generator/discriminator loss curve
     * Test images after training completed
 - Test_Output/
-  - colorization_test_model.pynb will automatically create folders for final test images here
+  - colorization_test_model.ipynb will automatically create folders for final test images here
 - lsun/ (or whatever dataset you have downloaded)
   - train/
     - subdir/ (subdirectory required to read in large datasets using ImageDataGenerator in Keras)
