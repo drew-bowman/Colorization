@@ -24,14 +24,14 @@ couple features of the code.
 
 As the model trains, it will output predictions on the training set after each epoch. This way, you can see the model converge (or fail spectacularly) in real time.
 ![](Images/Epoch%2024.png)
-*The images in the figure are: Ground Truth | Grayscale | Predictions 1 ... n |*
+*The images in the figure are: Ground Truth | Grayscale | Predictions 1 ... k |*
 
 It will also output a loss curve, which is updated at the end of each epoch.
 ![](Images/Losses.jpg)
 
 Once the model's done training, it will output predictions on the test set.
 ![](Images/Test%20Images%20Butte%204.png)
-*Just like in training, the images in the figure are: Ground Truth | Grayscale | Predictions 1 ... n |*
+*Just like in training, the images in the figure are: Ground Truth | Grayscale | Predictions 1 ... k |*
 
 
 ### Testing the CGAN
