@@ -4,9 +4,9 @@ A Conditional Generative Adversarial Network (CGAN) capable of colorizing graysc
 This project was coded in Jupyter Notebooks using Python. More details about colorization theory,
 implementation, tests, discussion, etc. can be found in [my undergraduate research thesis](https://drive.google.com/file/d/10PYoKT_YwOIlvwnCFpDo6Mz5gK7t0GaC/view?usp=sharing) completed at Elon University.
 
-This research was also turned into a [paper](https://facstaff.elon.edu/sspurlock/papers/bowman20_colorization.pdf) which will be published with the following citation: 
+This research was also turned into a [paper](https://facstaff.elon.edu/sspurlock/papers/bowman20_colorization.pdf) which is published with the following [citation](https://dl.acm.org/doi/abs/10.5555/3447307.3447312): 
 
-Drew Bowman and Scott Spurlock. Chasing Rainbows: Colorizing Black and White Images with Adversarial Learning. _Journal of Computing Sciences in Colleges_. 36, 2 (December 2020).
+Bowman, D., & Spurlock, S. (2021). Chasing rainbows: colorizing black and white images with adversarial learning. _Journal of Computing Sciences in Colleges, 36_(5), 57-66.
 
 ## Goal
 The aim of this project was to develop a model that could be trained on color images and then 
